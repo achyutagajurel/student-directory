@@ -7,7 +7,7 @@ function StudentCard({ student, onDelete }) {
     <div className="card">
       <h3 className="student-name">{student.name}</h3>
       <p className="student-course">Course: {student.course}</p>
-      <p className="student-grade">Grade: {student.grade}</p>
+      <p className="student-grade">Marks: {student.grade}</p>
 
       <div className="badges">
         <Badge type={student.isPresent ? "success" : "danger"}>
