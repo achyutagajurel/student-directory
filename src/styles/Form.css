@@ -1,0 +1,84 @@
+.form {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.input-group input:focus {
+  outline: 2px solid #007bff;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.btn.danger {
+  background: red;
+}
+
+.btn.danger:hover {
+  background: darkred;
+}
+
+
+.form-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-group select:focus {
+  outline: 2px solid #007bff;
+}
+
+
+.toggle-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: background 0.3s;
+}
+
+.toggle-btn.on {
+  background-color: #28a745;
+}
+
+.toggle-btn.off {
+  background-color: #dc3545;
+}
